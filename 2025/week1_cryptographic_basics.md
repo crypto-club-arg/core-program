@@ -252,7 +252,7 @@ While RSA encryption is based on the hardness of factoring problem, there is ano
 | --- | --- |
 | Plaintext: |  |
 | **x**=(**C1**)^**a** mod **p**|  |
-| **m**=**C2**^**x**^(**p**-2) mod **p** |  |
+| **m**=**C2** * **x**^(**p**-2) mod **p** |  |
 | **Plaintext: m** | |
 
 :::info
