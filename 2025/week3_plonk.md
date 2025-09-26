@@ -14,9 +14,9 @@ Read Plonkathon Referenced Version. If you want to challenge yourself, You can i
 https://github.com/0xPARC/plonkathon/tree/reference
 
 For a hands-on, step-by-step understanding of PLONK's mechanics, consider the "PLONK by Hand" series:
-- PLONK by Hand, Part 1: [https://research.metastate.dev/plonk-by-hand-part-1/](https://research.metastate.dev/plonk-by-hand-part-1/)
-- PLONK by Hand, Part 2 - The Proof: [https://research.metastate.dev/plonk-by-hand-part-2-the-proof/](https://research.metastate.dev/plonk-by-hand-part-2-the-proof/)
-- PLONK by Hand, Part 3 - Verification: [https://research.metastate.dev/plonk-by-hand-part-3-verification/](https://research.metastate.dev/plonk-by-hand-part-3-verification/)
+- PLONK by Hand, Part 1: [https://research.metastate.dev/plonk-by-hand-part-1/](https://web.archive.org/web/20250505153004/https://research.metastate.dev/plonk-by-hand-part-1/)
+- PLONK by Hand, Part 2 - The Proof: [https://research.metastate.dev/plonk-by-hand-part-2-the-proof/](https://web.archive.org/web/20250506033922/https://research.metastate.dev/plonk-by-hand-part-2-the-proof/)
+- PLONK by Hand, Part 3 - Verification: [https://research.metastate.dev/plonk-by-hand-part-3-verification/](https://web.archive.org/web/20250426082432/https://research.metastate.dev/plonk-by-hand-part-3-verification/)
 
 PLONK and Custom Gates with Adrian Hamelink: [https://zkhack.dev/whiteboard/module-five/]
 
@@ -56,7 +56,6 @@ Some may choose to use **Halo2** instead of Circom. That's great! Halo2 is a pow
 #### Recommended Resources
 
 - [Intro to Halo2 – Consensys](https://consensys.io/diligence/blog/2023/07/endeavors-into-the-zero-knowledge-halo2-proving-system/)
-- [Getting Started with Halo2 – Axiom](https://docs.axiom.xyz/zero-knowledge-proofs/getting-started-with-halo2)
 - [Halo2 Cheatsheet – Axiom](https://hackmd.io/@axiom/HyoXzD7Zh)
 - [0xPARC Halo2 Lectures](https://learn.0xparc.org/materials/halo2/learning-group-1/introduction)
 - [halo2.club (encyclopedia)](https://halo2.club/)
