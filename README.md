@@ -11,37 +11,52 @@
 
 ## Learning Content (6-Week Weekly Syllabus)
 
-### Week 1: Fundamentals and Open Source Culture
-- **Prerequisites:** Necessary prior knowledge for the course.
-- **Open Source Culture:** Introduction and reinforcement of the importance and practices of open-source code.
+### Week 0: Course Primer
+- **Prerequisites:** Essential preparation module to be completed before the program begins
+- **Getting Help:** How and where to ask questions effectively
+- **Open Source Culture:** Git, GitHub, and the way of open source development
+- **ZK Fundamentals:** High-level introduction to Zero-Knowledge Proofs
+- **Number Theory:** Modular arithmetic, group theory, and mathematical foundations
+- **Practical:** Rust basics with Rustlings, thought experiments, and modular arithmetic exercises
 
-### Week 2: Classical and Modern Cryptography & Introduction to ZKPs
-- **Cryptography:** Classical and modern (From symmetric to asymmetric ciphers: RSA, Diffie-Hellman).
-- **Introduction to Zero-Knowledge Proofs (ZKPs):** What they are and why they are necessary (Scalability and Privacy). Types of ZK-Proofs: zk-SNARKs vs zk-STARKs.
-- **Technologies:** Introduction to Circom.
+### Week 1: Cryptographic Basics
+- **Symmetric vs Asymmetric Encryption:** AES, RSA, and cryptographic foundations
+- **Hash Functions & Merkle Trees:** SHA-256, Poseidon, and tree structures
+- **Digital Signatures:** Schnorr signatures and authentication mechanisms
+- **DLP-based Cryptography:** Discrete Logarithm Problem, Diffie-Hellman, ElGamal
+- **Cryptographic Commitments:** Privacy-preserving commitment schemes
+- **Elliptic Curve Cryptography:** ECC basics, ECDSA, BLS signatures, and pairings
+- **Practical:** Circuit writing with Circom, hash proofs, and Merkle tree implementations
 
-### Week 3: More Crypto, SNARKs, and STARKs
-- **Study:** KZG Polynomial Commitments, Trusted Setup.
-- **STARKs and SNARKs:** Definition, characteristics, and uses.
-- **Practical Application:** Algorithm implementation and basic ZKP demonstrations.
-- **Technologies:** Advanced Circom & Introduction to Cairo
-  
-### Week 4: PLONK
-- **Study:**
-    - **PLONK Introduction:** Vitalik's blog post, Plonkish circuit arithmetization.
-    - **Implementation:** Explore Plonkathon reference implementation.
-    - **Core Concepts:** Brief understanding of underlying mathematical tools (e.g., polynomial commitments)
-- **Technologies:** Introduction to Noir
+### Week 2: More Crypto, SNARKs, and STARKs
+- **KZG Polynomial Commitments:** Commitment schemes and their applications
+- **Trusted Setup:** Understanding the setup process and security implications
+- **STARKs vs SNARKs:** Comparison, characteristics, and use cases
+- **Program to Proof:** Converting computation to cryptographic proofs
+- **Groth16:** Introduction to this popular zkSNARK construction
+- **STARKs and FRI:** Post-quantum secure proof systems
+- **Practical:** Advanced Circom circuits and Cairo introduction
 
-### Week 5: ZK-ET Workshop
-- **Workshops:** Complementary practical workshops.
-- **Contribution Week 1:** First week dedicated to open source contributions in virtual mode.
+### Week 3: PLONK
+- **PLONK Deep Dive:** Vitalik's blog post and Plonkish arithmetization
+- **Implementation Study:** Plonkathon reference implementation analysis
+- **Mathematical Tools:** Polynomial commitments and underlying cryptography
+- **Practical Applications:** PLONK by hand exercises and circuit construction
+- **Technologies:** Introduction to Noir circuits and Halo2 (advanced option)
 
-### Week 6: Final Contributions, Demo, and ZK Future
-- **Contribution Week 2:** Second week of open source contributions in virtual mode.
-- **Workshops:** Complementary practical workshops.
-- **Demo Day:** Presentation of practical application results and contributions.
-- **The Frontier:** Discussion on advancements and future trends in Zero-Knowledge.
+### Week 4: Hack and Experiment
+- **Project Week:** Build practical ZK applications
+- **Project Ideas:** Token mixers, ZK calculators, ZK Battleship, simple rollups, ZK puzzles
+- **Development:** Focus on building runnable, presentable code
+- **Presentation:** Prepare to demonstrate your project and explain how it works
+- **Tools:** Utilize existing libraries and boilerplates for rapid development
+
+### Week 5: Frontier Technologies
+- **Multi-Party Computation (MPC):** Secure computation across multiple parties
+- **Fully Homomorphic Encryption (FHE):** Computing on encrypted data
+- **TLSNotary:** Proving data provenance from web servers
+- **ZKEmail:** Zero-knowledge proofs with traditional email protocols
+- **Exploration:** Self-directed learning in cutting-edge programmable cryptography
 
 ## Ideal Candidate Profile
 
@@ -50,6 +65,11 @@
 - **English proficiency** to understand technical content (Most content in this language).
 - **Students or professionals** in Computer Science, Engineering, Mathematics, or related fields (from 4th semester onwards or graduates/egress).
 
+## Additional Resources
+
+- **[FAQs](2025/faqs.md)** - Frequently asked questions for program participants
+- **[2025 Program Materials](2025/)** - All course content and resources for the 2025 cohort
+- **[Contributions Gallery](2025/contributions/)** - Showcase of amazing projects built by previous program participants
 
 ## Contribution
 
